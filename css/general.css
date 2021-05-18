@@ -6,6 +6,16 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f3f1f1;
+}
+
+.container {
+    flex-basis: 80%;
+}
+
 .list__taskItem--done {
     text-decoration: line-through;
 }
