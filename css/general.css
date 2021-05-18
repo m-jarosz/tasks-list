@@ -1,0 +1,3 @@
+.list__taskItem--done {
+    text-decoration: line-through;
+}
