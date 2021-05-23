@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
     <script src="js/script.js" defer></script>
     <title>Lista zadań</title>
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <h1 class="header__title">Lista zadań</h1>
+        <header class="siteHeader">
+            <h1 class="siteHeader__title">Lista zadań</h1>
         </header>
         <main class="main">
             <form class="form js-form main__subElement">
-                <h2 class="form__title">Dodaj nowe zadanie</h2>
+                <header class="subHeader">
+                    <h2 class="subHeader__title">Dodaj nowe zadanie</h2>
+                </header>
+                
                 <input type="text" class="form__input js-inputTask" placeholder="Co jest do zrobienia?" autofocus>
                 <button class="form__button js-addTaskButton">Dodaj Zadanie</button>
             </form>
             <ul class="list js-taskList main__subElement">
+                <header class="subHeader">
+                    <h2 class="subHeader__title">Lista zadań</h2>
+                </header>
             </ul>
         </main>
     </div>
