@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/subHeaderr.css">
+    <link rel="stylesheet" href="css/subHeader.css">
     <link rel="stylesheet" href="css/form.css">
     <script src="js/script.js" defer></script>
     <title>Lista zadań</title>
 </head>
+
 <body>
     <div class="container">
         <header class="siteHeader">
@@ -21,17 +23,21 @@
                 <header class="subHeader">
                     <h2 class="subHeader__title">Dodaj nowe zadanie</h2>
                 </header>
-                
+
                 <input type="text" class="form__input js-inputTask" placeholder="Co jest do zrobienia?" autofocus>
                 <button class="form__button js-addTaskButton">Dodaj Zadanie</button>
             </form>
-            <ul class="list js-taskList main__subElement">
+            <div class="taskContainer main__subElement">
                 <header class="subHeader">
                     <h2 class="subHeader__title">Lista zadań</h2>
                 </header>
-            </ul>
+
+                <ul class="list js-taskList">
+                </ul>
+            </div>
         </main>
     </div>
-    
+
 </body>
+
 </html>
