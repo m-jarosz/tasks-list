@@ -1,3 +1,7 @@
 .subHeader {
     border-bottom: 3px solid #f3f1f1;
 }
+
+.subHeader__title {
+    padding: 15px;
+}
