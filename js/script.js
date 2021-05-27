@@ -38,7 +38,7 @@
         let htmlString = "";
         for (const task of tasks) {
             htmlString += `
-                <li${task.done ? " class = \"list__taskItem--done\"" : ""}>
+                <li${task.done ? " class = \"list__taskItem list__taskItem--done\"" : "list__taskItem"}>
                 <div class = "list__doneContainer js-done"></div>
                 ${task.content}
                 <button class = "js-remove">Usuń</button>
